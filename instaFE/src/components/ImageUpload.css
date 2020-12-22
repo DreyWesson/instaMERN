@@ -1,0 +1,30 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  max-width: 34.5em;
+  margin: 5px auto 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+.imageUpload > p {
+  color: gray;
+}
+.imageUpload__progressBar {
+  margin-top: 10px;
+  width: 100%;
+}
+.imageUpload__caption {
+  margin-top: 10px;
+  outline-width: 0;
+  border: 1px solid lightgray;
+  padding: 7px 5px;
+}
+.imageUpload__button {
+  margin-top: 10px;
+  color: rgb(122, 122, 122);
+}
+.imageUpload__uploadButton {
+  margin-top: 10px !important;
+  color: #fe3d71 !important;
+  font-weight: bolder !important;
+}

@@ -1,0 +1,24 @@
+.app {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.app__cameraContainer {
+  color: #fe3d71;
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  position: sticky;
+  left: -100px;
+  bottom: 30px;
+}
+.app__camera {
+  position: absolute;
+  right: 30px;
+  padding: 10px;
+  font-size: 3em !important;
+}
+.makeStyles-paper-1 {
+  outline-width: 0;
+  border: none !important;
+}
